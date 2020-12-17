@@ -1787,7 +1787,7 @@ input,
 optgroup,
 select,
 textarea {
-    color: inherit;
+    color: #4c566a;
     font: inherit;
     margin: 0
 }
@@ -1968,7 +1968,7 @@ th {
 
 .profile-stats-panes {
     width: 710px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 a.edit-profile-button {
@@ -2055,11 +2055,11 @@ a.edit-profile-button {
     }
 
     .profile-stats-panes {
-        width: 88%
+        width: 88%;
     }
 
     .profile-stats-pane {
-        margin: 10px auto
+        margin: 10px auto;
     }
 }
 
@@ -2275,18 +2275,20 @@ a.find-out-more-link {
     }
 }
 
+/* TODO: sort reading bar */
 .reading-goal-number {
     font-weight: bold;
-    color: #0F8199
+    color: #88c0d0;
 }
 
 #reading-goal-progress-bar {
     width: 60%;
-    height: 20px
+    height: 20px;
+    background: #5e81ac;
 }
 
 #reading-goal-progress-bar {
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 #reading-goal-progress-bar::-webkit-progress-value {
@@ -2295,7 +2297,7 @@ a.find-out-more-link {
 }
 
 #reading-goal-progress-bar::-webkit-progress-bar {
-    background: #eee;
+    background: #5e81ac;
     border-radius: 10px
 }
 
@@ -2582,7 +2584,8 @@ details[open] summary {
 #read_status_read {
     width: 20px;
     vertical-align: middle;
-    margin-right: 0px
+    margin-right: 0px;
+    color: #4c566a;
 }
 
 .search-results-count {
@@ -3137,7 +3140,8 @@ input.button-primary.compare-stats-button {
 }
 
 p.chart-type {
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    color: #d8dee9;
 }
 
 .icon {
@@ -3300,7 +3304,7 @@ body {
 .standard-label {
     font-variant: normal;
     font-size: 1em;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .announcement {

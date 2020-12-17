@@ -2,6 +2,6 @@ Storygraph hurt my eyes so made a dark theme use something like [stylus](https:/
 
 **todo:**
 * [ ] Make stats page not look awful
-* [ ] Fix dropdown boxes
+* [X] Fix dropdown boxes
 * [ ] Filter list pane
 * [ ] Sort out top banner
